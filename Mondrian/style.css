@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Color*/
+.gray {
+  background: gray;
+  color: gray;
+  border: 2.5px solid black;
+}
+
+.yellow {
+  background: yellow;
+  color: yellow;
+  border: 2.5px solid black;
+}
+
+.red {
+  background: red;
+  color: red;
+  border: 2.5px solid black;
+}
+
+.white {
+  background: white;
+  color: white;
+  border: 2.5px solid black;
+}
+
+.blue {
+  background: blue;
+  color: blue;
+  border: 2.5px solid black;
+}
+
+.black {
+  background-color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+body h1 {
+  margin: 2vw 0 5vw 0;
+}
+
+/*Creation tableau*/
+.tableau {
+  background: white;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 6.25% 6.25%;
+  height: 50vh;
+  width: 40vw;
+}
+
+.tableau div {
+  border: 5px solid black;
+}
+
+/*row*/
+.row-1 {
+  grid-row-start: 1;
+}
+.row-2 {
+  grid-row-start: 2;
+}
+.row-3 {
+  grid-row-start: 3;
+}
+.row-4 {
+  grid-row-start: 4;
+}
+.row-5 {
+  grid-row-start: 5;
+}
+.row-6 {
+  grid-row-start: 6;
+}
+.row-7 {
+  grid-row-start: 7;
+}
+.row-8 {
+  grid-row-start: 8;
+}
+.row-9 {
+  grid-row-start: 9;
+}
+
+/*col*/
+.col-1 {
+  grid-column-start: 1;
+}
+.col-2 {
+  grid-column-start: 2;
+}
+.col-3 {
+  grid-column-start: 3;
+}
+.col-4 {
+  grid-column-start: 4;
+}
+.col-5 {
+  grid-column-start: 5;
+}
+.col-6 {
+  grid-column-start: 6;
+}
+.col-7 {
+  grid-column-start: 7;
+}
+.col-8 {
+  grid-column-start: 8;
+}
+
+/*fin row*/
+.f-row1 {
+  grid-row-end: 1;
+}
+.f-row2 {
+  grid-row-end: 2;
+}
+.f-row3 {
+  grid-row-end: 3;
+}
+.f-row4 {
+  grid-row-end: 4;
+}
+.f-row5 {
+  grid-row-end: 5;
+}
+.f-row6 {
+  grid-row-end: 6;
+}
+.f-row7 {
+  grid-row-end: 7;
+}
+.f-row8 {
+  grid-row-end: 8;
+}
+.f-row9 {
+  grid-row-end: 9;
+}
+.f-row10 {
+  grid-row-end: 10;
+}
+
+/*fin col*/
+.f-col1 {
+  grid-column-end: 1;
+}
+.f-col2 {
+  grid-column-end: 2;
+}
+.f-col3 {
+  grid-column-end: 3;
+}
+.f-col4 {
+  grid-column-end: 4;
+}
+.f-col5 {
+  grid-column-end: 5;
+}
+.f-col6 {
+  grid-column-end: 6;
+}
+.f-col7 {
+  grid-column-end: 7;
+}
+.f-col8 {
+  grid-column-end: 8;
+}
+.f-col9 {
+  grid-column-end: 9;
+}

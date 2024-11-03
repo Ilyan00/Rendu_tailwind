@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ec35368b02.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    class="w-full h-full bg-cover bg-center leading-normal"
+    style="background-image: url('img/water_bg.jpg')"
+  >
+    <!--Background image-->
+
+    <div
+      class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0"
+    >
+      <div
+        class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-blue-50 bg-opacity-50 mx-6 lg:mx-0"
+      >
+        <div class="p-4 md:p-12 text-center lg:text-left">
+          <!--Afficher l'image que pour les formats téléphones-->
+          <div
+            class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
+            style="background-image: url('./img/mars.jpg')"
+          ></div>
+
+          <h1 class="text-3xl font-bold pt-8 lg:pt-0">Ilyan</h1>
+          <div
+            class="mx-auto lg:mx-0 w-4/5 my-10 border-b-2 border-blue-500 opacity-25"
+          ></div>
+          <div class="flex flex-col justify-between">
+            <p
+              class="text-base font-bold flex items-center justify-center lg:justify-start mb-2"
+            >
+              <i class="fa-solid fa-briefcase mr-3 text-blue-700"></i>
+              Cultivateur de pommes de terre martiennes
+            </p>
+            <p
+              class="text-base font-bold flex items-center justify-center lg:justify-start mb-2"
+            >
+              <i class="fa-solid fa-globe mr-3 text-blue-700"></i>
+              41 rue de marsattacks
+            </p>
+
+            <div
+              class="mx-auto lg:mx-0 w-4/5 my-8 border-b-2 border-blue-500 opacity-25"
+            ></div>
+            <h2 class="text-2xl font-bold pb-5">Passe temps :</h2>
+            <p
+              class="text-base font-bold flex items-center justify-center lg:justify-start mb-2"
+            >
+              <i class="fa-solid fa-microphone-lines mr-3 text-blue-700"></i>
+              Astro-karaoké
+            </p>
+            <p
+              class="text-base font-bold flex items-center justify-center lg:justify-start mb-2"
+            >
+              <i
+                class="fa-solid fa-table-tennis-paddle-ball mr-3 text-blue-700"
+              ></i>
+              Tennis de table en apesanteur
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center mt-5">
+              <i
+                class="fa-brands fa-discord mx-2 text-blue-700 text-2xl hover:text-blue-950"
+              ></i>
+              <i
+                class="fa-brands fa-twitter mx-2 text-blue-700 text-2xl hover:text-blue-950"
+              ></i>
+              <i
+                class="fa-brands fa-instagram mx-2 text-blue-700 text-2xl hover:text-blue-950"
+              ></i>
+              <i
+                class="fa-solid fa-soap mx-2 text-blue-700 text-2xl hover:text-blue-950"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image pour ecran d'ordinateur -->
+      <div class="w-full lg:w-2/5">
+        <img
+          src="./img/mission_mars.webp"
+          class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+        />
+      </div>
+    </div>
+  </body>
+</html>
